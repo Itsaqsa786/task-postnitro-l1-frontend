@@ -146,7 +146,7 @@ export default function Navbar() {
               />
             </Link>
 
-            <Group gap="xs" visibleFrom="md">
+            <Group gap="0" visibleFrom="md">
               {navLinks.map((link) => (
                 <Menu
                   key={link.label}

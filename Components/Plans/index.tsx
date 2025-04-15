@@ -272,9 +272,8 @@ export default function PlansSection() {
               const freePlanDetails = getPlanDetails(freePlanId, billing);
               return (
                 <Group
-                  justify="space-between"
+                  justify="space-around"
                   align="center"
-                  grow
                   preventGrowOverflow={false}
                 >
                   <Stack gap={4} style={{ flexBasis: "auto", flexGrow: 1 }}>
