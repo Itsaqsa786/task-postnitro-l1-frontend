@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "Getting_Started": "快速开始",
+    "Docs": "文档",
+    "Blog": "博客",
+    "Affiliates": "联盟计划",
+    "Products": "产品",
+    "LinkedIn_Carousel": "LinkedIn 轮播图",
+    "Instagram_Carousel": "Instagram 轮播图",
+    "TikTok_Carousel": "TikTok 轮播图",
+    "Twitter_Carousel": "Twitter 轮播图",
+    "Embed": "嵌入组件",
+    "Extension": "浏览器扩展",
+    "Free_Tools": "免费工具",
+    "Twitter_Banner": "Twitter 横幅生成器",
+    "LinkedIn_Banner": "LinkedIn 横幅生成器",
+    "Instagram_Grid": "Instagram 九宫格分割工具",
+    "LinkedIn_Formatter": "LinkedIn 文本格式化工具",
+    "LinkedIn_Post_Generator": "LinkedIn 帖子生成器",
+    "Plans": "套餐",
+    "Create_Image_Post": "创建图像帖子",
+    "Create_Carousel": "创建轮播图",
+    "Menu": "菜单",
+    "Navigation": "导航"
+  },
+  "hero_section": {
+    "Badge": "AI 驱动的病毒式内容轮播生成器",
+    "Title": "适用于 Instagram、LinkedIn 等平台的 AI 轮播生成器",
+    "Description": "PostNitro 的 AI 平台可为社交媒体创建令人惊叹的轮播内容。通过可自定义、符合品牌风格的内容，助您迅速提升互动率。",
+    "Rating": "已有 32,000+ 创作者加入",
+    "EmbeddedInto": "集成于",
+    "Platforms": "40+ 个社交媒体平台",
+    "CTA": "开始免费创建轮播",
+    "Subtext": "无需信用卡 | 每月免费下载"
+  },
+  "plans": {
+    "sectionTitle": "满足您轮播图创作需求的计划",
+    "sectionDescription": "从独立创作者到代理机构，我们都有适合您需求的计划。",
+    "billingToggleMonthly": "按月计费",
+    "billingToggleYearly": "按年计费",
+    "yearlyDiscountBanner": "年度订阅享7折优惠！- ANNUAL30OFF",
+    "getStartedButton": "开始使用",
+    "taxDisclaimer": "* 所有价格均需缴纳适用税费。",
+    "addOnsText": "如果您需要额外的限制，可以<link>将其作为附加项添加</link>到您的订阅中。",
+    "starter": {
+      "title": "入门计划",
+      "subtext": "非常适合起步。",
+      "features": {
+        "0": "无水印导出",
+        "1": "访问基础AI模型 (GPT-4o, Claude Haiku)",
+        "2": "30次下载/月",
+        "3": "每个轮播图8张AI生成幻灯片"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "",
+      "saveTextYearly": ""
+    },
+    "solopreneur": {
+      "title": "个体创业者计划",
+      "subtext": "非常适合独立创作者。",
+      "features": {
+        "0": "无水印导出",
+        "1": "访问高级AI模型 (GPT-4, Claude Sonnet)",
+        "2": "每个轮播图15张AI生成幻灯片",
+        "3": "最多5个品牌",
+        "4": "无限次下载",
+        "5": "访问所有模板",
+        "6": "自定义调色板",
+        "7": "创建自定义模板"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "原价：$20/月",
+      "saveTextYearly": "每年为您节省 $96。"
+    },
+    "team": {
+      "title": "团队计划",
+      "subtext": "非常适合小型团队。",
+      "features": {
+        "0": "每月100张AI生成图片",
+        "1": "最多5个工作区",
+        "2": "每个轮播图最多20张幻灯片",
+        "3": "15个自定义模板"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "原价：$50/月",
+      "saveTextYearly": "每年为您节省 $240。"
+    },
+    "free": {
+      "title": "免费计划",
+      "subtext": "帮助您开始。",
+      "features": {
+        "0": "访问 GPT 4o-Mini",
+        "1": "每月5次下载",
+        "2": "访问基础模板"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "",
+      "saveTextYearly": ""
+    }
+  }
+}

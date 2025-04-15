@@ -13,6 +13,7 @@ import {
 import { useMediaQuery } from "@mantine/hooks";
 import { IconArrowRight, IconStarFilled } from "@tabler/icons-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const AVATAR_IMG = "/user-collected.webp";
 const PLATFORM_IMG = "/embed-collected.png";
@@ -21,6 +22,7 @@ export default function HeroSection() {
   const theme = useMantineTheme();
   const isMobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
   const isExtraSmall = useMediaQuery(`(max-width: ${theme.breakpoints.xs})`);
+  const t = useTranslations("hero_section");
 
   return (
     <Box
@@ -49,7 +51,7 @@ export default function HeroSection() {
             }
             styles={{ label: { fontSize: theme.fontSizes.xs } }}
           >
-            AI-Powered Carousel Generator For Viral Content
+            {t("Badge")}
           </Badge>
 
           {/* Hero Title */}
@@ -59,14 +61,12 @@ export default function HeroSection() {
             maw={1000}
             fz={{ base: "1.5rem", sm: "2.8rem", md: "3.2rem" }}
           >
-            AI-Powered Carousel Generator for Instagram, LinkedIn & More
+            {t("Title")}
           </Title>
 
           {/* Hero Description */}
           <Text ta="center" c="dimmed" maw={1000} fz={{ base: "xs", sm: "md" }}>
-            PostNitro's AI-powered platform creates stunning carousels for
-            social media. Boost engagement with customizable, brand-aligned
-            content generated in minutes.
+            {t("Description")}
           </Text>
 
           {/* Social Proof + Platforms */}
@@ -80,8 +80,8 @@ export default function HeroSection() {
               <Image
                 src={AVATAR_IMG}
                 alt="Avatars of creators using PostNitro"
-                width={200}
-                height={50}
+                width={180}
+                height={40}
                 priority
               />
             </Box>
@@ -106,7 +106,7 @@ export default function HeroSection() {
                   </Group>
                 </Group>
                 <Text c="dimmed" fz={{ base: "xs", sm: "sm" }}>
-                  Join 32,000+ Creators
+                  {t("Rating")}
                 </Text>
               </Stack>
             </Group>
@@ -119,20 +119,20 @@ export default function HeroSection() {
             )}
 
             {/* Platforms */}
-            <Group align="center" gap="xs" wrap="nowrap">
+            <Group align="center" gap="xs" wrap="wrap">
               <Stack gap={0} align="flex-start">
                 <Text fw={500} fz={{ base: "xs", sm: "sm" }}>
-                  Embedded Into
+                  {t("EmbeddedInto")}
                 </Text>
                 <Text fw={400} c="dimmed" fz={{ base: "xs", sm: "sm" }}>
-                  40+ SMM Platforms
+                  {t("Platforms")}
                 </Text>
               </Stack>
-              <Box w={{ base: 100, xs: 120, sm: 150 }}>
+              <Box w={{ base: 140, xs: 120, sm: 150 }}>
                 <Image
                   src={PLATFORM_IMG}
                   alt="Logos of integrated platforms"
-                  width={150}
+                  width={140}
                   height={30}
                 />
               </Box>
@@ -146,10 +146,10 @@ export default function HeroSection() {
               rightSection={<IconArrowRight size={20} />}
               color="teal.9"
             >
-              Start Creating Free Carousels
+              {t("CTA")}
             </Button>
             <Text fz="xs" c="dimmed">
-              No Credit Card Required | Free Downloads Every Month
+              {t("Subtext")}
             </Text>
           </Stack>
         </Stack>

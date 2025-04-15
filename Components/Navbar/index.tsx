@@ -18,10 +18,12 @@ import {
   useMantineTheme,
 } from "@mantine/core";
 import { Sparkles, ChevronDown, Menu as MenuIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 
 const navLinks = [
   {
-    label: "Getting Started",
+    label: "Getting_Started",
     items: [
       { label: "Docs", href: "https://postnitro.ai/docs" },
       { label: "Blog", href: "https://postnitro.ai/blog" },
@@ -31,35 +33,35 @@ const navLinks = [
   {
     label: "Products",
     items: [
-      { label: "LinkedIn Carousel", href: "/carousels/linkedin" },
-      { label: "Instagram Carousel", href: "/carousels/instagram" },
-      { label: "TikTok Carousel", href: "/carousels/tiktok" },
-      { label: "Twitter Carousel", href: "/carousels/x-twitter" },
+      { label: "LinkedIn_Carousel", href: "/carousels/linkedin" },
+      { label: "Instagram_Carousel", href: "/carousels/instagram" },
+      { label: "TikTok_Carousel", href: "/carousels/tiktok" },
+      { label: "Twitter_Carousel", href: "/carousels/x-twitter" },
       { label: "Embed", href: "/products/embed" },
       { label: "Extension", href: "/products/extension" },
     ],
   },
   {
-    label: "Free Tools",
+    label: "Free_Tools",
     items: [
       {
-        label: "Twitter Banner",
+        label: "Twitter_Banner",
         href: "/free-ai-tools/twitter-free-banner-header-image-maker",
       },
       {
-        label: "LinkedIn Banner",
+        label: "LinkedIn_Banner",
         href: "/free-ai-tools/linkedin-free-banner-header-image-maker",
       },
       {
-        label: "Instagram Grid",
+        label: "Instagram_Grid",
         href: "/free-ai-tools/instagram-free-image-splitter-grid-maker",
       },
       {
-        label: "LinkedIn Formatter",
+        label: "LinkedIn_Formatter",
         href: "/free-ai-tools/linkedin-free-text-formatter",
       },
       {
-        label: "LinkedIn Post Generator",
+        label: "LinkedIn_Post_Generator",
         href: "/free-ai-tools/linkedin-free-post-generator",
       },
     ],
@@ -72,6 +74,7 @@ export default function Navbar() {
 
   const [drawerOpened, drawer] = useDisclosure(false);
   const [openedMenu, setOpenedMenu] = useDisclosure();
+  const t = useTranslations("navbar");
 
   const renderCreateButtons = (isMobile = false) => (
     <Group gap="xs" {...(isMobile ? { grow: true } : {})}>
@@ -84,7 +87,7 @@ export default function Navbar() {
         leftSection={<Sparkles size={16} />}
         fullWidth={isMobile}
       >
-        Create Image Post
+        {t("Create_Image_Post")}
         <Box
           ml={6}
           px={5}
@@ -110,7 +113,7 @@ export default function Navbar() {
         leftSection={<Sparkles size={16} />}
         fullWidth={isMobile}
       >
-        Create Carousel
+        {t("Create_Carousel")}
       </Button>
     </Group>
   );
@@ -169,7 +172,7 @@ export default function Navbar() {
                         },
                       })}
                     >
-                      {link.label}
+                      {t(link.label)}
                     </Button>
                   </Menu.Target>
                   <Menu.Dropdown>
@@ -187,7 +190,7 @@ export default function Navbar() {
                             : undefined
                         }
                       >
-                        {item.label}
+                        {t(item.label)}
                       </Menu.Item>
                     ))}
                   </Menu.Dropdown>
@@ -200,17 +203,18 @@ export default function Navbar() {
                 variant="subtle"
                 size="sm"
               >
-                Plans
+                {t("Plans")}
               </Button>
             </Group>
           </Group>
 
           <Group gap="xs" visibleFrom="md">
+            <LanguageSwitcher />
             {renderCreateButtons()}
           </Group>
 
-          {/* Mobile Actions */}
           <Group hiddenFrom="md" gap="8">
+            <LanguageSwitcher />
             <Button
               variant="subtle"
               size="sm"
@@ -219,17 +223,16 @@ export default function Navbar() {
               onClick={drawer.toggle}
               leftSection={<MenuIcon size={20} />}
             >
-              Menu
+              {t("Menu")}
             </Button>
           </Group>
         </Flex>
       </Paper>
 
-      {/* Mobile Drawer */}
       <Drawer
         opened={drawerOpened}
         onClose={drawer.close}
-        title="Navigation"
+        title={t("Navigation")}
         padding="md"
         size="md"
         hiddenFrom="md"
@@ -248,7 +251,7 @@ export default function Navbar() {
                 }}
               >
                 <Group justify="space-between">
-                  <span>{link.label}</span>
+                  <span>{t(link.label)}</span>
                   <ChevronDown
                     size={16}
                     style={{
@@ -269,7 +272,7 @@ export default function Navbar() {
                     pl={34}
                     style={{ display: "block", width: "100%" }}
                   >
-                    {item.label}
+                    {t(item.label)}
                   </UnstyledButton>
                 ))}
               </Collapse>
@@ -284,7 +287,7 @@ export default function Navbar() {
             p="0px"
             style={{ display: "block", width: "100%" }}
           >
-            Plans
+            {t("Plans")}
           </UnstyledButton>
 
           <Divider />

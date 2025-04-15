@@ -1,0 +1,101 @@
+{
+    "navbar": {
+        "Getting_Started": "Primeros pasos",
+        "Docs": "Documentación",
+        "Blog": "Blog",
+        "Affiliates": "Afiliados",
+        "Products": "Productos",
+        "LinkedIn_Carousel": "Carrusel de LinkedIn",
+        "Instagram_Carousel": "Carrusel de Instagram",
+        "TikTok_Carousel": "Carrusel de TikTok",
+        "Twitter_Carousel": "Carrusel de Twitter",
+        "Embed": "Insertar",
+        "Extension": "Extensión",
+        "Free_Tools": "Herramientas gratuitas",
+        "Twitter_Banner": "Creador de banners de Twitter",
+        "LinkedIn_Banner": "Creador de banners de LinkedIn",
+        "Instagram_Grid": "Divisor de cuadrícula de Instagram",
+        "LinkedIn_Formatter": "Formateador de texto para LinkedIn",
+        "LinkedIn_Post_Generator": "Generador de publicaciones de LinkedIn",
+        "Plans": "Planes",
+        "Create_Image_Post": "Crear publicación con imagen",
+        "Create_Carousel": "Crear carrusel",
+        "Menu": "Menú",
+        "Navigation": "Navegación"
+    },
+    "hero_section": {
+        "Badge": "Generador de Carruseles con IA para Contenido Viral",
+        "Title": "Generador de Carruseles con IA para Instagram, LinkedIn y más",
+        "Description": "La plataforma de PostNitro crea carruseles impactantes para redes sociales usando IA. Aumenta el engagement con contenido personalizable alineado con tu marca en minutos.",
+        "Rating": "Únete a más de 32,000 creadores",
+        "EmbeddedInto": "Integrado en",
+        "Platforms": "Más de 40 plataformas de redes sociales",
+        "CTA": "Empieza a crear carruseles gratis",
+        "Subtext": "No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
+    },
+    "plans": {
+        "sectionTitle": "Planes para sus necesidades de creación de carruseles",
+        "sectionDescription": "Desde creadores individuales hasta agencias, tenemos un plan que se ajusta a sus requisitos.",
+        "billingToggleMonthly": "Mensual",
+        "billingToggleYearly": "Anual",
+        "yearlyDiscountBanner": "¡30% DE DESCUENTO EN SUSCRIPCIÓN ANUAL! - ANNUAL30OFF",
+        "getStartedButton": "Empezar",
+        "taxDisclaimer": "* Todos los precios están sujetos a los impuestos aplicables.",
+        "addOnsText": "Si necesita límites adicionales, puede <link>agregarlos como Complementos</link> a su suscripción.",
+        "starter": {
+            "title": "PLAN INICIAL",
+            "subtext": "Perfecto para empezar.",
+            "features": {
+                "0": "Exportaciones sin marca de agua",
+                "1": "Acceso a modelos básicos de IA (GPT-4o, Claude Haiku)",
+                "2": "30 descargas/mes",
+                "3": "8 Diapositivas Generadas por IA por Carrusel"
+            },
+            "originalPriceMonthly": "",
+            "originalPriceYearly": "",
+            "saveTextYearly": ""
+        },
+        "solopreneur": {
+            "title": "PLAN SOLOPRENEUR",
+            "subtext": "Perfecto para creadores individuales.",
+            "features": {
+                "0": "Exportaciones sin marca de agua",
+                "1": "Acceso a modelos avanzados de IA (GPT-4, Claude Sonnet)",
+                "2": "15 Diapositivas Generadas por IA por Carrusel",
+                "3": "Hasta 5 Marcas",
+                "4": "Descargas ilimitadas",
+                "5": "Acceso a todas las plantillas",
+                "6": "Paletas de colores personalizadas",
+                "7": "Crear plantillas personalizadas"
+            },
+            "originalPriceMonthly": "",
+            "originalPriceYearly": "Antes: $20/mes",
+            "saveTextYearly": "Le ahorra $96 al año."
+        },
+        "team": {
+            "title": "PLAN EQUIPO",
+            "subtext": "Perfecto para equipos pequeños.",
+            "features": {
+                "0": "100 imágenes generadas por IA al mes",
+                "1": "Hasta 5 espacios de trabajo",
+                "2": "Hasta 20 diapositivas por carrusel",
+                "3": "15 plantillas personalizadas"
+            },
+            "originalPriceMonthly": "",
+            "originalPriceYearly": "Antes: $50/mes",
+            "saveTextYearly": "Le ahorra $240 al año."
+        },
+        "free": {
+            "title": "PLAN GRATUITO",
+            "subtext": "Para ayudarle a empezar.",
+            "features": {
+                "0": "Acceso a GPT 4o-Mini",
+                "1": "5 descargas al mes",
+                "2": "Acceso a plantillas básicas"
+            },
+            "originalPriceMonthly": "",
+            "originalPriceYearly": "",
+            "saveTextYearly": ""
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "Getting_Started": "Commencer",
+    "Docs": "Documentation",
+    "Blog": "Blog",
+    "Affiliates": "Affiliés",
+    "Products": "Produits",
+    "LinkedIn_Carousel": "Carrousel LinkedIn",
+    "Instagram_Carousel": "Carrousel Instagram",
+    "TikTok_Carousel": "Carrousel TikTok",
+    "Twitter_Carousel": "Carrousel Twitter",
+    "Embed": "Intégrer",
+    "Extension": "Extension",
+    "Free_Tools": "Outils gratuits",
+    "Twitter_Banner": "Créateur de bannière Twitter",
+    "LinkedIn_Banner": "Créateur de bannière LinkedIn",
+    "Instagram_Grid": "Diviseur de grille Instagram",
+    "LinkedIn_Formatter": "Formateur de texte LinkedIn",
+    "LinkedIn_Post_Generator": "Générateur de posts LinkedIn",
+    "Plans": "Formules",
+    "Create_Image_Post": "Créer une publication image",
+    "Create_Carousel": "Créer un carrousel",
+    "Menu": "Menu",
+    "Navigation": "Navigation"
+  },
+  "hero_section": {
+    "Badge": "Générateur de Carrousels IA pour un Contenu Viral",
+    "Title": "Générateur de Carrousels IA pour Instagram, LinkedIn et plus",
+    "Description": "La plateforme IA de PostNitro crée des carrousels époustouflants pour les réseaux sociaux. Augmentez l'engagement avec du contenu personnalisable et aligné sur votre marque en quelques minutes.",
+    "Rating": "Rejoignez plus de 32 000 créateurs",
+    "EmbeddedInto": "Intégré à",
+    "Platforms": "Plus de 40 plateformes sociales",
+    "CTA": "Commencez à créer des carrousels gratuits",
+    "Subtext": "Aucune carte de crédit requise | Téléchargements gratuits chaque mois"
+  },
+  "plans": {
+    "sectionTitle": "Plans pour vos besoins de création de carrousels",
+    "sectionDescription": "Des créateurs solos aux agences, nous avons un plan qui correspond à vos exigences.",
+    "billingToggleMonthly": "Mensuel",
+    "billingToggleYearly": "Annuel",
+    "yearlyDiscountBanner": "30% DE RÉDUCTION SUR L'ABONNEMENT ANNUEL ! - ANNUAL30OFF",
+    "getStartedButton": "Commencer",
+    "taxDisclaimer": "* Tous les prix sont soumis aux taxes applicables.",
+    "addOnsText": "Si vous avez besoin de limites supplémentaires, vous pouvez <link>les ajouter en tant qu'Add-Ons</link> à votre abonnement.",
+    "starter": {
+      "title": "PLAN DÉBUTANT",
+      "subtext": "Parfait pour démarrer.",
+      "features": {
+        "0": "Exportations sans filigrane",
+        "1": "Accès aux modèles IA de base (GPT-4o, Claude Haiku)",
+        "2": "30 téléchargements/mois",
+        "3": "8 Diapositives Générées par IA par Carrousel"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "",
+      "saveTextYearly": ""
+    },
+    "solopreneur": {
+      "title": "PLAN SOLOPRENEUR",
+      "subtext": "Parfait pour les créateurs solos.",
+      "features": {
+        "0": "Exportations sans filigrane",
+        "1": "Accès aux modèles IA avancés (GPT-4, Claude Sonnet)",
+        "2": "15 Diapositives Générées par IA par Carrousel",
+        "3": "Jusqu'à 5 Marques",
+        "4": "Téléchargements illimités",
+        "5": "Accès à tous les modèles",
+        "6": "Palettes de couleurs personnalisées",
+        "7": "Créer des modèles personnalisés"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "Précédemment : 20 $/mois",
+      "saveTextYearly": "Vous économisez 96 $ par an."
+    },
+    "team": {
+      "title": "PLAN ÉQUIPE",
+      "subtext": "Parfait pour les petites équipes.",
+      "features": {
+        "0": "100 images générées par IA par mois",
+        "1": "Jusqu'à 5 espaces de travail",
+        "2": "Jusqu'à 20 diapositives par carrousel",
+        "3": "15 modèles personnalisés"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "Précédemment : 50 $/mois",
+      "saveTextYearly": "Vous économisez 240 $ par an."
+    },
+    "free": {
+      "title": "PLAN GRATUIT",
+      "subtext": "Pour vous aider à démarrer.",
+      "features": {
+        "0": "Accès à GPT 4o-Mini",
+        "1": "5 téléchargements par mois",
+        "2": "Accès aux modèles de base"
+      },
+      "originalPriceMonthly": "",
+      "originalPriceYearly": "",
+      "saveTextYearly": ""
+    }
+  }
+}
